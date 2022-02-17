@@ -5,8 +5,8 @@
 
 ## Installation
 * Windows
-You can download latest release [here](https://github.com/Faywyrr/IPWebcam-Virtual-Camera/releases/latest).
+<br>You can download latest release [here](https://github.com/Faywyrr/IPWebcam-Virtual-Camera/releases/latest).
 Install driver before.
 
 * Android
-Install [IP Webcam](https://play.google.com/store/apps/details?id=com.pas.webcam) app and start the server.
+<br>Install [IP Webcam](https://play.google.com/store/apps/details?id=com.pas.webcam) app and start the server.
