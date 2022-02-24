@@ -42,8 +42,9 @@ with pyvirtualcam.Camera(width=width, height=height, fps=fps, device="IPCamera")
 
     while ipcam.isOpened():
         ret, frame = ipcam.read()
+        img = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 
-        vcam.send(frame)
+        vcam.send(img)
         vcam.sleep_until_next_frame()
 
     ipcam.release()
